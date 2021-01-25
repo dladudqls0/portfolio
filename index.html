@@ -1,231 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="shortcut icon" href="img/bean.ico"/>
-    <title>임영빈|포트폴리오</title>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <nav>
-                <ul class="gnb">
-                    <li class="btn on" data-tabnum="0">
-                        <a href="#">About Me</a>
-                        <div class="hr"></div>
-                    </li>
-                    <li class="btn" data-tabnum="1">
-                        <a href="#">Project</a>
-                        <div class="hr"></div>
-                    </li>
-                </ul>
-            </nav>
-        </header>
 
-        
-        <div class="wrapper">
-            <section id="about" class="content" style="display:block;">
-                <div class="who">
-                    <h1>Who.</h1><hr color="#bcaaa4">
-                    <div class="me">
-                      <div class="meImg">
-                        <img src="img/me.jpg" />
-                      </div>
-                      <div class="meText">
-                        <p>
-                          <span>1997.02.23 24세</span> <br>
-                          <span>인하대학교 컴퓨터공학과 4학년(진)</span> <br><br>
-                          안녕하세요 프론트엔드 개발자 임영빈입니다. <br>
-                          멋쟁이사자처럼 이라는 연합동아리에서 웹개발을 처음 접한 뒤 해커톤과 
-                          같은 다양한 활동을 통해 경험을 쌓았고, 현재는 프론트엔드 개발에 배움의 폭을 넓혀가고 있습니다.<br>
-                          프론트엔드 개발 분야 뿐만 아니라 백엔드 개발 분야의 전반적인 기술을 익혀 커뮤니케이션 능력을 겸비했습니다.<br>
-                        </p>
-                      </div>
-                    </div>
-                    <br><h1>Skills.</h1><hr color="#bcaaa4">
-                    <div class="skills">
-                      <br>
-                      <img src="img/skill.png" style="width:100%;"><br>
-                    </div>
-                    <br><h1>Contact.</h1><hr color="#bcaaa4">
-                    <div class="contact">
-                      <div class="contactText">
-                        <img src="img/icon_git.png">
-                        <a href="https://github.com/dladudqls0" target="_blank">https://github.com/dladudqls0</a><br>
-                        <img src="img/icon_call.png" style="width:1.4em;">
-                        <a href="tell:010-7160-7636">010-7160-7636</a> <br>
-                        <img src="img/icon_mail.png">
-                        <a href="mailto:2976622@gmail.com">2976622@gmail.com</a>
-                      </div>
-                      <div class="contactImg">
-                        <img src="img/contact.png" />
-                      </div>
-                    </div>
-                  </div>
-            </section>
-            <section id="project" class="content" style="display:none;">
-                <div class="gridWrap">
-                    <!-- 롯데 해커톤 -->
-                    <div id="modal1" class="modal">
-                        <img src="img/gaon.png">
-                        <div class="modalText">
-                            <h3>[롯데가온]실버택배 서비스</h3>
-                            <span>20.09.24~20.10.25(개발)</span>
-                        </div>
-                    </div>
-                    <div id="modal2" class="modal">
-                        <img src="img/mungpot.png">
-                        <div class="modalText">
-                            <h3>[멍팟]댕댕이 전용 소셜 네트워크 서비스</h3>
-                            <span>20.08.26~20.09.23(개발)</span>
-                        </div>
-                    </div>
-                    <div id="modal3" class="modal">
-                        <img src="img/yesshow.png">
-                        <div class="modalText">
-                            <h3>[YesShow]식당 예약권 양도 중개 서비스</h3>
-                            <span>20.07.25~20.07.26(개발)</span>
-                        </div>
-                    </div>
-                    <div id="modal4" class="modal">
-                        <img src="img/psyou.png">
-                        <div class="modalText">
-                            <h3>[ps.you]심리테스트 기반 힐링 웹 서비스</h3>
-                            <span>20.5.20~20.5.31(기획)</span>
-                        </div>
-                    </div>
-                    <div id="modal5" class="modal">
-                      <img src="img/bingle.png">
-                      <div class="modalText">
-                          <h3>[빙글뱅글]HTML:Canvas로 만든 게임</h3>
-                          <span>19.12.18~19.12.21</span>
-                      </div>
-                    </div>
-                    <div class="modalContainer modalContainer1 hidden">
-                      <div class="modal_wrap">
-                        <div class="modal_body">
-                          <div class="modal_content">
-                            <button class="button1">X</button>
-                            <img src="img/gaon_img.png" />
-                            <div class="weblink">
-                              <p>
-                                아래 사이트에서 프론트엔드 작업만 적용된 사이트를 확인할 수 있습니다.<br>
-                              </p>
-                              <a
-                                href="https://dladudqls0.github.io/test/home.html"
-                                target="_blank"
-                                >사이트 바로가기</a
-                              >
-                              <p>깃허브에서 <strong style="color:#d34d4d">&nbsp;Lotte GAON</strong>의 코드를 확인하실 수 있습니다.</p>
-                              <a
-                                href="https://github.com/hojuniii/lotte_project"
-                                target="_blank"
-                                >깃허브 바로가기</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal_overlay modal_overlay1"></div>
-                    </div>
-                    <div class="modalContainer modalContainer2 hidden">
-                      <div class="modal_wrap">
-                        <div class="modal_body">
-                          <div class="modal_content">
-                            <button class="button2">X</button>
-                            <img src="img/mungpot_img.png" />
-                            <div class="weblink">
-                              <p>깃허브에서 <strong style="color:#72b170">멍팟</strong>의 코드를 확인하실 수 있습니다.</p>
-                              <a
-                                href="https://github.com/Likelion-Inha-8/SSAK4"
-                                target="_blank"
-                                >깃허브 바로가기</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal_overlay modal_overlay2"></div>
-                    </div>
-                    <div class="modalContainer modalContainer3 hidden">
-                      <div class="modal_wrap">
-                        <div class="modal_body">
-                          <div class="modal_content">
-                            <button class="button3">X</button>
-                            <img src="img/yesshow_img.png" />
-                            <div class="weblink">
-                              <p>깃허브에서 <strong style="color:rgb(124, 124, 124);">YesShow</strong>의 코드를 확인하실 수 있습니다.</p>
-                              <a
-                                href="https://github.com/dadahee/yes-show"
-                                target="_blank"
-                                >깃허브 바로가기</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal_overlay modal_overlay3"></div>
-                    </div>
-                    <div class="modalContainer modalContainer4 hidden">
-                      <div class="modal_wrap">
-                        <div class="modal_body">
-                          <div class="modal_content">
-                            <button class="button4">X</button>
-                            <img src="img/psyou_img.png" />
-                            <div class="weblink">
-                              <p>
-                                <strong style="color:#72d0d3">ps.you</strong>의 데모 페이지를 바로 확인해보세요!
-                              </p>
-                              <a
-                                href="https://psyou-demo.scdn.pw/"
-                                target="_blank"
-                                >사이트 바로가기</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal_overlay modal_overlay4"></div>
-                    </div>
-                    <div class="modalContainer modalContainer5 hidden">
-                      <div class="modal_wrap">
-                        <div class="modal_body">
-                          <div class="modal_content">
-                            <button class="button5">X</button>
-                            <img src="img/bingle_img.png" />
-                            <div class="weblink">
-                              <p>
-                                github로 배포한 <strong style="color:#8c7b75;">빙글뱅글</strong> 사이트를 바로 확인해보세요!
-                              </p>
-                              <a
-                                href="https://dladudqls0.github.io/game/"
-                                target="_blank"
-                                >사이트 바로가기</a
-                              >
-                              <p>깃허브에서 코드를 확인하실 수 있습니다.</p>
-                              <a
-                                href="https://github.com/dladudqls0/game"
-                                target="_blank"
-                                >깃허브 바로가기</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal_overlay modal_overlay5"></div>
-                    </div>
-            </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="script.js" type="text/javascript" defer></script>
+  <link rel="shortcut icon" href="img/bean.ico" />
+  <title>임영빈|포트폴리오</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul class="gnb">
+          <li class="btn on" data-tabnum="0">
+            <a href="#">About Me</a>
+            <div class="hr"></div>
+          </li>
+          <li class="btn" data-tabnum="1">
+            <a href="#">Project</a>
+            <div class="hr"></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="wrapper">
+      <section id="about" class="content" style="display:block;">
+        <div class="who">
+          <h1>Who.</h1>
+          <hr color="#bcaaa4">
+          <div class="me">
+            <div class="meImg">
+              <img src="img/me.jpg" />
+            </div>
+            <div class="meText">
+              <p>
+                <span>1997.02.23 25세</span> <br>
+                <span>인하대학교 컴퓨터공학과 4학년(진)</span> <br><br>
+                안녕하세요 프론트엔드 개발자 임영빈입니다. <br>
+                멋쟁이사자처럼 이라는 연합동아리에서 웹개발을 처음 접한 뒤 해커톤과
+                같은 다양한 활동을 통해 경험을 쌓았고, 현재는 프론트엔드 개발에 배움의 폭을 넓혀가고 있습니다.<br>
+                프론트엔드 개발 분야 뿐만 아니라 백엔드 개발 분야의 전반적인 기술을 익혀 커뮤니케이션 능력을 겸비했습니다.<br>
+              </p>
+            </div>
+          </div>
+          <br>
+          <h1>Skills.</h1>
+          <hr color="#bcaaa4">
+          <div class="skills">
+            <br>
+            <img src="img/skill.png" style="width:100%;"><br>
+          </div>
+          <br>
+          <h1>Contact.</h1>
+          <hr color="#bcaaa4">
+          <div class="contact">
+            <div class="contactText">
+              <img src="img/icon_git.png">
+              <a href="https://github.com/dladudqls0" target="_blank">https://github.com/dladudqls0</a><br>
+              <img src="img/icon_call.png" style="width:1.4em;">
+              <a href="tel:010-7160-7636">010-7160-7636</a> <br>
+              <img src="img/icon_mail.png">
+              <a href="mailto:2976622@gmail.com">2976622@gmail.com</a>
+            </div>
+            <div class="contactImg">
+              <img src="img/contact.png" />
+            </div>
+          </div>
         </div>
-        
-        
-        <footer>
-            <span>ⓒ 2020 임영빈 all rights reserved.</span>
-        </footer>
+      </section>
+      <section id="project" class="content" style="display:none;">
+        <div class="gridWrap">
+          <!-- 롯데 해커톤 -->
+          <div class="modal">
+            <img src="img/pickcat.png">
+            <div class="modalText">
+              <h3>[PickCat]우리동네 길고양이를 돌보는 집사들을 위한 서비스</h3>
+              <span>21.01.21~21.01.22</span>
+            </div>
+          </div>
+          <div class="modal">
+            <img src="img/gaon.png">
+            <div class="modalText">
+              <h3>[롯데가온]실버택배 서비스</h3>
+              <span>20.09.24~20.10.25(개발)</span>
+            </div>
+          </div>
+          <div class="modal">
+            <img src="img/mungpot.png">
+            <div class="modalText">
+              <h3>[멍팟]댕댕이 전용 소셜 네트워크 서비스</h3>
+              <span>20.08.26~20.09.23(개발)</span>
+            </div>
+          </div>
+          <div class="modal">
+            <img src="img/yesshow.png">
+            <div class="modalText">
+              <h3>[YesShow]식당 예약권 양도 중개 서비스</h3>
+              <span>20.07.25~20.07.26(개발)</span>
+            </div>
+          </div>
+          <div class="modal">
+            <img src="img/psyou.png">
+            <div class="modalText">
+              <h3>[ps.you]심리테스트 기반 힐링 웹 서비스</h3>
+              <span>20.5.20~20.5.31(기획)</span>
+            </div>
+          </div>
+          <div class="modal">
+            <img src="img/bingle.png">
+            <div class="modalText">
+              <h3>[빙글뱅글]HTML:Canvas로 만든 게임</h3>
+              <span>19.12.18~19.12.21</span>
+            </div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/img_pickcat.png" />
+                  <div class="weblink">
+                    <p>
+                      <strong style="color:#8c7b75;">PickCat</strong> 사이트를 바로 확인해보세요!
+                    </p>
+                    <a href="https://www.pickcat.xyz/" target="_blank">사이트 바로가기</a>
+                    <p>깃허브에서 코드를 확인하실 수 있습니다.</p>
+                    <a href="https://github.com/gns0304/PickCat" target="_blank">깃허브 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/gaon_img.png" />
+                  <div class="weblink">
+                    <p>
+                      아래 사이트에서 프론트엔드 작업만 적용된 사이트를 확인할 수 있습니다.<br>
+                    </p>
+                    <a href="https://dladudqls0.github.io/test/home.html" target="_blank">사이트 바로가기</a>
+                    <p>깃허브에서 <strong style="color:#d34d4d">&nbsp;Lotte GAON</strong>의 코드를 확인하실 수 있습니다.</p>
+                    <a href="https://github.com/hojuniii/lotte_project" target="_blank">깃허브 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/mungpot_img.png" />
+                  <div class="weblink">
+                    <p>깃허브에서 <strong style="color:#72b170">멍팟</strong>의 코드를 확인하실 수 있습니다.</p>
+                    <a href="https://github.com/Likelion-Inha-8/SSAK4" target="_blank">깃허브 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/yesshow_img.png" />
+                  <div class="weblink">
+                    <p>깃허브에서 <strong style="color:rgb(124, 124, 124);">YesShow</strong>의 코드를 확인하실 수 있습니다.</p>
+                    <a href="https://github.com/dadahee/yes-show" target="_blank">깃허브 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/psyou_img.png" />
+                  <div class="weblink">
+                    <p>
+                      <strong style="color:#72d0d3">ps.you</strong>의 데모 페이지를 바로 확인해보세요!
+                    </p>
+                    <a href="https://psyou-demo.scdn.pw/" target="_blank">사이트 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+          <div class="modalContainer hidden">
+            <div class="modal_wrap">
+              <div class="modal_body">
+                <div class="modal_content">
+                  <button class="button">X</button>
+                  <img src="img/bingle_img.png" />
+                  <div class="weblink">
+                    <p>
+                      github로 배포한 <strong style="color:#8c7b75;">빙글뱅글</strong> 사이트를 바로 확인해보세요!
+                    </p>
+                    <a href="https://dladudqls0.github.io/game/" target="_blank">사이트 바로가기</a>
+                    <p>깃허브에서 코드를 확인하실 수 있습니다.</p>
+                    <a href="https://github.com/dladudqls0/game" target="_blank">깃허브 바로가기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal_overlay"></div>
+          </div>
+      </section>
     </div>
-    <script src="script.js" type="text/javascript"></script>
+
+
+    <footer>
+      <span>ⓒ 2020 임영빈 all rights reserved.</span>
+    </footer>
+  </div>
+  
 </body>
+
 </html>
-<a href="#" class="top"><div><img src="img/direction.png"></div></a>
+<a href="#" class="top">
+  <div><img src="img/direction.png"></div>
+</a>
