@@ -7,9 +7,11 @@ html {
     margin:0;
     width: 100%;
     height: auto;
+    font-size:10px;
 }
 
 *{
+    box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -43,7 +45,7 @@ header nav{
     bottom:10%;
     width:100%;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.6rem;
     font-style: italic;
 }
 header nav ul{
@@ -61,7 +63,7 @@ header nav a{
     font-style: italic;
     font-family: "Roboto Mono", monospace;
     color:rgb(236, 236, 236);
-    font-size:1.5em;
+    font-size:2.7rem;
     font-weight: 600;
     text-shadow: 0px 0px 8px rgb(88, 80, 52);
 }
@@ -115,30 +117,27 @@ header nav .gnb li.on .hr {
 .wrapper section#about .who h1 {
     font-family: "Roboto Mono", monospace;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #8c7b75;
 }
-  
+
 .wrapper section#about .who .me {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     flex: 1;
     flex-wrap: wrap;
     padding: 30px 0px;
 }
-  
-.wrapper section#about .who .me .meImg {
-    padding: 10px 0px;
-    box-sizing: border-box;
-}
+
 .wrapper section#about .who .me .meImg img{
     width:190px;
     border-radius: 150px;
     border:1.5px dashed gray;
 }
-  
+
 .wrapper section#about .who .me .meText {
     display: flex;
     flex-direction: column;
@@ -146,25 +145,23 @@ header nav .gnb li.on .hr {
     width: 100%;
     max-width: 560px;
 }
-
 .wrapper section#about .who .me .meText p {
-    margin-top: 20px;
     font-family: "Noto Sans KR", sans-serif;
-    font-size: 1em;
+    font-size: 1.5rem;
     line-height: 25px;
 }
-  
 .wrapper section#about .who .me .meText p span {
-    font-size: 0.8em;
+    font-size: 1.2rem;
     color: rgb(138, 138, 138);
 }
 
 
+
 .wrapper section#about .who .contact{
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex: 1;
     flex-wrap: wrap;
     padding: 30px 0px;
@@ -172,6 +169,8 @@ header nav .gnb li.on .hr {
 .wrapper section#about .who .contact .contactImg {
     padding: 10px 0px;
     box-sizing: border-box;
+    text-align: center;
+    width:25rem;
 }
 .wrapper section#about .who .contact .contactImg img{
     transition: all 0.3s ease;
@@ -186,19 +185,19 @@ header nav .gnb li.on .hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     max-width: 560px;
     text-align: center;
+    width:40rem;
 }
 .wrapper section#about .who .contact .contactText img{
     margin:0 auto;
-    width:1.8em;
+    width:2.5rem;
 }
 
 .wrapper section#about .who .contact .contactText a {
     font-family: "Noto Sans KR", sans-serif;
     color:#242424;
-    font-size: 1.5em;
+    font-size: 2.4rem;
     text-decoration: none;
     text-decoration: none;
 }
@@ -372,7 +371,7 @@ footer span {
     width: 100%;
     color: rgb(190, 190, 190);
     font-family: "Noto Sans KR", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     text-align: center;
     display: inline-block;
     padding: 30px 0px;
